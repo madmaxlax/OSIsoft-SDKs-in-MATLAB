@@ -9,3 +9,8 @@ Some helpful info:
 
  - http://nl.mathworks.com/help/matlab/matlab_external/access-a-simple-net-class.html
  - viewing the methods available on a .NET object in MATLAB http://nl.mathworks.com/help/matlab/ref/methodsview.html
+
+**OSIsoft Info**
+
+ - PI and MATLAB White Paper https://pisquare.osisoft.com/docs/DOC-1305
+ - New! an Actual MATLAB utility for PI https://pisquare.osisoft.com/docs/DOC-2293
