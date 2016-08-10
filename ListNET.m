@@ -1,8 +1,7 @@
 function [ ret ] = ListNET( NETListItem )
-%LIST Summary of this function goes here
+%LIST helper function for displaying .NET list names
 %   Detailed explanation goes here
 
-    %keys = dic.Keys;
     key_enum = NETListItem.GetEnumerator;
     len = NETListItem.Count;
     cnt = 1;
@@ -13,7 +12,7 @@ function [ ret ] = ListNET( NETListItem )
        if stat
            key_val = key_enum.Current;
            if ~isempty(key_val)
-               %assumes the item has the property Name
+               %NOTE: assumes the item has the property Name (which the OSIsoft ones do)
                fullname = char(key_val.Name);
                ret{cnt} = [ret{cnt} fullname];
                cnt = cnt+1;
