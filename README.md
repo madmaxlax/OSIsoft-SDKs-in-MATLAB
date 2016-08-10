@@ -14,3 +14,6 @@ Some helpful info:
 
  - PI and MATLAB White Paper https://pisquare.osisoft.com/docs/DOC-1305
  - New! an Actual MATLAB utility for PI https://pisquare.osisoft.com/docs/DOC-2293
+
+
+*Note*: the ListNET is a helper function, as MATLAB doesn't really provide a way to show the string names of a non-standard object array
