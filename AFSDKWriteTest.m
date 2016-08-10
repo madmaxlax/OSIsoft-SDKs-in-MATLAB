@@ -32,7 +32,10 @@ fprintf('The value of %s is %f at %s \n', char(testAttribute.Name), curVal.Value
 
 %set up a new value 
 %note: writing to a value requires:
-%write acccess to the tag, and buffering to be set up
+%write acccess to the tag, 
+%and buffering to be set up
+%be careful that no other sources are writing to this tag
+%else you run the risk of a Postevent failed: [-11414] Buffered point does not accept new events
 newval = AFValue(33,AFTime('*'));
 
 %set the value in AF
@@ -46,4 +49,3 @@ newVal = testAttribute.GetValue();
 
 %note char() is required for matlab to handle .NET Strings
 fprintf('The new value of %s is %f at %s \n', char(testAttribute.Name), newVal.Value, char(newVal.Timestamp.LocalTime.ToString()));
-lax = 3;
