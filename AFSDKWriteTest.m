@@ -13,8 +13,8 @@ import OSIsoft.AF.PI.*;
 %connect to the STCA AF Server
 piSystems = OSIsoft.AF.PISystems;
 fprintf('Connecting and refreshing\n');
-af_server = piSystems.Item('STCA AF Server');
-af_database = af_server.Databases.Item('STCA-AF');
+af_server = piSystems.Item('YourAFServer');
+af_database = af_server.Databases.Item('YourAFdb');
 
 %make sure you have the latest database
 af_database.Refresh();
