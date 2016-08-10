@@ -3,7 +3,7 @@ Examples of using the OSIsoft PI SDK and AF SDK in MATLAB
 
 Open the various .m MATLAB files for the examples
 
-**Examples**
+**Examples included in this**
 
  1. Using the PISDK, get a point's value https://github.com/madmaxlax/OSIsoft-SDKs-in-MATLAB/blob/master/PISDKGetValueTest.m
  2. Using PISDK *write* a value to a PI point https://github.com/madmaxlax/OSIsoft-SDKs-in-MATLAB/blob/master/PISDKWriteValueTest.m
@@ -20,7 +20,7 @@ Some helpful info:
 **OSIsoft Info**
 
  - PI and MATLAB White Paper https://pisquare.osisoft.com/docs/DOC-1305
- - New! an Actual MATLAB utility for PI https://pisquare.osisoft.com/docs/DOC-2293
+ - **New!(( an Actual MATLAB utility for PI https://pisquare.osisoft.com/docs/DOC-2293 which replaces the need for the SDK direct references 
 
 
 *Note*: the ListNET is a helper function, as MATLAB doesn't really provide a way to show the string names of a non-standard object array
