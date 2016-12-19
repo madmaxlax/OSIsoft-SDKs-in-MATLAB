@@ -4,7 +4,7 @@
 
 %add OSIsoft .NET references to be able to use them
 NET.addAssembly('OSIsoft.AFSDK');
-import OSIsoft.AFSDK.PI.*;
+import OSIsoft.AF.PI.*;
 %import OSIsoft.PISDK.*;
 %import OSIsoft.PISDK.PISDK.*;
 %import OSIsoft.PISDK.PISDKCommon.*;
@@ -24,4 +24,4 @@ fprintf('The value of %s is %f at %s \n', char(point.Name), point.Snapshot.Value
 %or find multiple points
 points = PIPointList(PIPoint.FindPIPoints(pisrv,'Sinu*'));
 %output them
-display(ListNET(points))
+display(ListNET(points)) %listNET is a custom function in another file in this project 
