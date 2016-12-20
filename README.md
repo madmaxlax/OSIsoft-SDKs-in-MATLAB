@@ -7,7 +7,7 @@ Open the various .m MATLAB files for the examples
 
  1. Using the PISDK, get a point's current value https://github.com/madmaxlax/OSIsoft-SDKs-in-MATLAB/blob/master/PISDKGetValueTest.m
    - PISDK to get interpolated values at set intervals in a given time range
-   https://github.com/madmaxlax/OSIsoft-SDKs-in-MATLAB/blob/master/PIDownload.m
+   https://github.com/madmaxlax/OSIsoft-SDKs-in-MATLAB/blob/master/PIdownload.m
  2. Using PISDK *write* a value to a PI point https://github.com/madmaxlax/OSIsoft-SDKs-in-MATLAB/blob/master/PISDKWriteValueTest.m
  3. AFSDK get an Attribute value https://github.com/madmaxlax/OSIsoft-SDKs-in-MATLAB/blob/master/AFSDKGetValueTest.m
  4. AFSDK *write* an attribute value https://github.com/madmaxlax/OSIsoft-SDKs-in-MATLAB/blob/master/AFSDKWriteTest.m
