@@ -24,4 +24,4 @@ fprintf('The value of %s is %f at %s \n', char(point.Name), point.Snapshot.Value
 %or find multiple points
 points = PIPointList(PIPoint.FindPIPoints(pisrv,'Sinu*'));
 %output them
-display(ListNET(points.Snapshot())) %listNET is a custom function in another file in this project 
+display(ListNET(points.CurrentValue())) %listNET is a custom function in another file in this project 
